@@ -1,0 +1,42 @@
+#comic-card:nth-child(n){
+    background-image: radial-gradient(circle, #0052a2, #00264d);
+    /* background-image: radial-gradient(circle, #696969, #bdbdbd); */
+    /* background-image:radial-gradient(circle, yellow, orange); */
+    border: solid 2px #000
+}
+
+.top-left {
+    left:-6px;
+    position:relative;
+    top:-2px;
+    transform:skew(-15deg);
+}
+
+.robin-speech-bubble{
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg); 
+    width: 35%;
+    padding-top: 3%;
+	padding-bottom: 9%;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    margin-left: 27%;
+    margin-bottom: -7%;
+    margin-top: -11%
+}
+
+.robin{
+    height: 460px;
+    /* margin-left: 55%; */
+    /* margin-bottom: -83%; */
+}
+
+.search-welcome{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+
