@@ -1,0 +1,3 @@
+git remote rm heroku- to remove the heroku repo
+
+heroku create <name of app> --buildpack https://github.com/mars/create-react-app-buildpack.git
